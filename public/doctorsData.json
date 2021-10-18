@@ -1,0 +1,648 @@
+[
+  {
+    "docId": 1,
+    "docName": "Dr. Mohammed Mizanur Rahman",
+    "docImage": "https://i.ibb.co/9Gf0Bc7/Mizanur-Rahman-e1616536852669-p4nrvhwlkbbx2e69x12o09kjgj8fx6unji9tcxyjf8.jpg",
+    "docSpecialities": ["cardiology"],
+    "docQualifications": "MBBS (RMC), D. Card (BSMMU)",
+    "docAbout": "Dr. Mizanur is a Consultant Cardiologist with over 17 years of work experience. He completed his MBBS from Rangpur Medical College and his post-graduate Diploma in Cardiology from Bangabandhu Sheikh Mujib Medical University. He has attended various training, conferences, and workshops related to Cardiology and Internal Medicine. He worked in Bangabandhu Sheikh Mujib Medical University from 2003 to 2005 as an Assistant Register (Medicine). He later worked at Dhaka Medical College and Hospital from 2007 to 2009 as an Assistant Register (Cardiology). He then moved back to Bangabandhu Sheikh Mujib Medical University and worked there as the Residential Medical Officer in Cardiology and Medicine from 2013 to 2016. Starting 2018 he is also working as EMD and Consultant Cardiologist at Nasrail Sadar Hospital.",
+    "docSchedule": [
+      {
+        "day": "sunday",
+        "time": "3:00pm - 6:00pm"
+      },
+      {
+        "day": "monday",
+        "time": "3:00pm - 6:00pm"
+      },
+      {
+        "day": "tuesday",
+        "time": "3:00pm - 6:00pm"
+      },
+      {
+        "day": "wesnesday",
+        "time": "4:00pm - 6:00pm"
+      },
+      {
+        "day": "thursday",
+        "time": "3:00pm - 6:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 2,
+    "docName": "Dr. AHM Masud Sinha",
+    "docImage": "https://i.ibb.co/hsfdghw/Dr-Masud-Sinha-e1616536755908-p4nrsyq95dv3s7uppfnusektu5pu6jsouyzpt3pq6s.jpg",
+    "docSpecialities": ["cardiology"],
+    "docQualifications": "MBBS, D. Card, FACC",
+    "docAbout": "Dr. AHM Masud Sinha is a Consultant Cardiologist with over 17 years of work experience. He completed his MBBS from Rangpur Medical College and his post-graduate Diploma in Cardiology from Bangabandhu Sheikh Mujib Medical University. He has attended various training, conferences, and workshops related to Cardiology and Internal Medicine. He worked in Bangabandhu Sheikh Mujib Medical University from 2003 to 2005 as an Assistant Register (Medicine). He later worked at Dhaka Medical College and Hospital from 2007 to 2009 as an Assistant Register (Cardiology). He then moved back to Bangabandhu Sheikh Mujib Medical University and worked there as the Residential Medical Officer in Cardiology and Medicine from 2013 to 2016. Starting 2018 he is also working as EMD and Consultant Cardiologist at Nasrail Sadar Hospital.",
+    "docSchedule": [
+      {
+        "day": "saturday",
+        "time": "2:00pm - 5:00pm"
+      },
+      {
+        "day": "sunday",
+        "time": "2:00pm - 5:00pm"
+      },
+      {
+        "day": "monday",
+        "time": "2:00pm - 5:00pm"
+      },
+      {
+        "day": "tuesday",
+        "time": "2:00pm - 5:00pm"
+      },
+      {
+        "day": "wesnesday",
+        "time": "2:00pm - 5:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 3,
+    "docName": "Dr. Nafees Uddin Chowdhury",
+    "docImage": "https://i.ibb.co/KXZwp1B/Dr-Nafees-Uddin-Chowdhury-e1616540834290-p4nurgtxilnp9n5gsyz2t120wus1bxlt641acrsv6c.jpg",
+    "docSpecialities": ["dentistry"],
+    "docQualifications": "BDS (DU), PhD (Tokyo)",
+    "docAbout": "Dr. Nafees has over 21 years of work experience. He completed his Bachelor of Dental Surgery (BDS) from Pioneer Dental College, Faculty of Dentistry, University of Dhaka in 2001. He later completed his Ph.D. degree from Tokyo Medical and Dental University, Tokyo, Japan, in the Department of Maxillofacial Prosthetics in 2010. He worked as a Lecturer & Clinical Staff in the Department of Conservative Dentistry of University Dental College, Dhaka from July 2002 to March 2004. Following that from December 2004 to March 2005 he worked as a Foreign Researcher in Maxillofacial Prosthetics Department of Tokyo Medical and Dental University, Tokyo, Japan. Starting October 2010, for one year, he was the Head & Assistant Professor of Science of Dental Materials Department in Marks Dental College, Dhaka. He also worked at Kumudini Women's Medical College as the Head & Assistant Professor of Science of Dental Materials from January 2013 to July 2014 and later as the Head & Associate Professor from July 2014 to April 2019. Simultaneously, from November 2015 until April 2019 he worked as the Chief of Dental Unit (Unit Head) & Associate Professor there. He then moved to Sylhet Central Dental College as the Professor & Head of Science of Dental Materials and worked there until September 2019. Starting in November 2019, he is working as a Professor of Prosthetics at Mandy Dental College, Dhaka. He also has various publications under his name.",
+    "docSchedule": [
+      {
+        "day": "saturday",
+        "time": "6:00pm - 8:00pm"
+      },
+      {
+        "day": "sunday",
+        "time": "10:00am - 8:00pm"
+      },
+      {
+        "day": "tuesday",
+        "time": "10:00am - 8:00pm"
+      },
+      {
+        "day": "thursday",
+        "time": "10:00am - 8:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 4,
+    "docName": "Dr. Lubna Sharmin",
+    "docImage": "https://i.ibb.co/GWqbMg1/drlubna-p2ynv0efzhu3obas4omdeqdjquclrnesthvvevb5jo.jpg",
+    "docSpecialities": ["dentistry", "family medicine"],
+    "docQualifications": "BDS",
+    "docAbout": "Dr. Lubna Sharmin is a Dentist specialized in General Dentistry, and has an experience of 27 years working in different organizations. She has been a part of Modern Dental Clinic as well as Apollo Hospitals, along with owning two of her own clinics. Dr. Lubna had also attended workshops on FDI, and ADA in Delhi and Las Vegas respectively, while also being an affiliate member of ADA in USA.",
+    "docSchedule": [
+      {
+        "day": "saturday",
+        "time": "6:00pm - 8:00pm"
+      },
+      {
+        "day": "sunday",
+        "time": "10:00am - 8:00pm"
+      },
+      {
+        "day": "tuesday",
+        "time": "10:00am - 8:00pm"
+      },
+      {
+        "day": "thursday",
+        "time": "10:00am - 8:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 5,
+    "docName": "Dr. Wahida Khan Chowdhury",
+    "docImage": "https://i.ibb.co/VMQsqDZ/Dr-Wahida-Khan-Chowdhury-e1616534721208-p4nqbuuj0d5vtcztth8owt19kfh9a6ynk423oaghqs.jpg",
+    "docSpecialities": ["dermatology"],
+    "docQualifications": "MBBS, DDV, FCPS",
+    "docAbout": "Dr. Wahida completed her MBBS in 1992 from Sylhet MAG Osmani Medical College. She later completed her Diploma in Dermatology & Venereology (DDV) from Dhaka Medical College in 2010. She finished her FCPS (Dermatology) from Bangladesh College of Physicians and Surgeons in 2011. She has worked as a Cosmetic and Laser specialist. She is the former Head of Dermatology & Venereology of Shahabuddin Medical College and Hospital where she worked from 2011 to 2018.",
+    "docSchedule": [
+      {
+        "day": "saturday",
+        "time": "7:00pm - 9:00pm"
+      },
+      {
+        "day": "sunday",
+        "time": "7:00pm - 9:00pm"
+      },
+      {
+        "day": "monday",
+        "time": "7:00pm - 9:00pm"
+      },
+      {
+        "day": "tuesday",
+        "time": "7:00pm - 9:00pm"
+      },
+      {
+        "day": "wednesday",
+        "time": "7:00pm - 9:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 6,
+    "docName": "Dr. Sharmina Huq",
+    "docImage": "https://i.ibb.co/wRG0mD7/5c4411c2ab38a-e1616322086464-p4jg3y6dvf0qorg824wq0b74m64htr9vwpzjcobrh0.jpg",
+    "docSpecialities": ["dermatology"],
+    "docQualifications": "MBBS, Diploma in Dermatology (UK)",
+    "docAbout": "Dr. Sharmina Huq MBBS (DU), Diploma in Dermatology (UK), is a Dermatology & Cosmetology Specialist. She has over 12 years of experience, including working at VLCC Health Carb. Over the course of her career, Dr. Huq attended several workshops and trainings at home and abroad.",
+    "docSchedule": [
+      {
+        "day": "saturday",
+        "time": "3:00pm - 5:00pm"
+      },
+      {
+        "day": "monday",
+        "time": "3:00pm - 5:00pm"
+      },
+      {
+        "day": "wednesday",
+        "time": "3:00pm - 5:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 7,
+    "docName": "Dr. M. A. Mobin Talukder",
+    "docImage": "https://i.ibb.co/JFxNmgk/drmobin-e1616669961309-p4qgez7pan02xjuejtpvtqnj2b15k99p1jgahituxg.jpg",
+    "docSpecialities": ["diabetology"],
+    "docQualifications": "MBBS, MCPS, CCD",
+    "docAbout": "Dr. M. A. Mobin Talukder MBBS (Rajshahi Medical College), MCPS (BCPS0, CCD (BIRDEM) is a Medicine Specialist & Diabetologist. He has over 38 years of experience, including working at Khoy General Hospital, Iran, Diabetic Association of Bangladesh, and Prescription Point. Over the course of his career, Dr. Mobin attended several workshops and trainings abroad, including in Canada and Australia. He also attended a Post Graduate program on Diabetology at Johns Hopkins, USA",
+    "docSchedule": [
+      {
+        "day": "saturday",
+        "time": "3:30pm - 5:00pm"
+      },
+      {
+        "day": "tuesday",
+        "time": "3:30pm - 5:00pm"
+      },
+      {
+        "day": "thursday",
+        "time": "3:30pm - 5:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 8,
+    "docName": "Dr. Shoaib Ahmad",
+    "docImage": "https://i.ibb.co/4R0Bm9k/shoab-1-p2ymtuu3u8z2r79o34g9clwmfjhaicwrdljxi4edhw.jpg",
+    "docSpecialities": ["family medicine"],
+    "docQualifications": "MBBS, CCD, CCCD",
+    "docAbout": "Dr. Shoaib Ahmad earned his Bachelor's degree in medicine and surgery in 1980 from Chittagong Medical College. For most of his professional career, he practiced as a general physician in several countries across the globe, including Iran, Saudi Arabia, and the UK. In Bangladesh he trained in Internal Medicine at Bangabanadhu Sheikh Mujibur University (BSMMU), and in Pediatrics at Dhaka Shishu Hospital. He qualified for PLAB from GMC (UK), obtained a Master's Degree in Public Health (MPH) from State University of Bangladesh, and qualified for MRCGP part 1. Currently, he is pursuing part 2. Since 2005, he has worked as an administrator and physician in many renowned private hospitals such as Central Hospital, United Hospital, Green Life Medical College and Hospital, CARE Specialized Hospital, and BRB Hospitals Limited. Recently, Dr. Shoaib served as the hospital director and family medicine doctor of HOPE Hospital, under the HOPE foundation for women and children.",
+    "docSchedule": [
+      {
+        "day": "saturday",
+        "time": "8:00am - 4:00pm"
+      },
+      {
+        "day": "monday",
+        "time": "8:00am - 4:00pm"
+      },
+      {
+        "day": "wednesday",
+        "time": "8:00am - 4:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 9,
+    "docName": "Dr. Paramita Karim",
+    "docImage": "https://i.ibb.co/19WXbqs/5e77315226686-1-p2ym55ms8z5to35abg36tuakh1828ouoncelid0t04.jpg",
+    "docSpecialities": ["family medicine"],
+    "docQualifications": "MBChB (Dundee Medical School), MRCP (UK)",
+    "docAbout": "Dr Paramita Karim earned her MBCHB from Dundee Medical School and went on to attain her MRCP degree from the Royal College. She has more than 10 years of experience working as a clinician. Over the span of her career, she has worked with NHS Tayside, ICDDRB & Apollo Hospitals Dhaka. Before joining Praava Health, Dr Paramita was serving as the Chief Medical Officer at Maya Clinic.",
+    "docSchedule": [
+      {
+        "day": "saturday",
+        "time": "8:00am - 2:00pm"
+      },
+      {
+        "day": "sunday",
+        "time": "8:00am - 2:00pm"
+      },
+      {
+        "day": "monday",
+        "time": "8:00am - 2:00pm"
+      },
+      {
+        "day": "tuesday",
+        "time": "8:00am - 2:00pm"
+      },
+      {
+        "day": "wednesday",
+        "time": "8:00am - 2:00pm"
+      },
+      {
+        "day": "thursday",
+        "time": "8:00am - 2:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 10,
+    "docName": "Dr. Musharaf Hossain",
+    "docImage": "https://i.ibb.co/1fdLRMD/drmusharraf-p2ymljxfgxlw77bukj8wbpc1j0ekily48i3iw4pkgk.jpg",
+    "docSpecialities": ["family medicine"],
+    "docQualifications": "MBBS (UK), CDC (UK), Dip. CHD, JCPTGP (UK)",
+    "docAbout": "Dr. Hussain has over 41 years of work experience at National Health Service (NHS) in the UK, including working as a General Practitioner for the last 27 years with focus on cardiovascular disease, diabetes, acute and chronic medical care. He served as Medical Registrar in various hospitals across the UK, including Blackpool Victoria Hospital. He last held the role of Principal General Practitioner at Healey Surgery, Whitworth Road, Rochdale, UK.",
+    "docSchedule": [
+      {
+        "day": "saturday",
+        "time": "11:00am - 7:00pm"
+      },
+      {
+        "day": "sunday",
+        "time": "11:00am - 7:00pm"
+      },
+      {
+        "day": "tuesday",
+        "time": "11:00am - 7:00pm"
+      },
+      {
+        "day": "wednesday",
+        "time": "11:00am - 7:00pm"
+      },
+      {
+        "day": "thursday",
+        "time": "11:00am - 7:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 11,
+    "docName": "Dr. Mosrose Salina",
+    "docImage": "https://i.ibb.co/cDpTQ67/drsalina-1-p2yn60uwb1mp1hlf1dsemjdf93ic5b7odtk752cwyc.jpg",
+    "docSpecialities": ["family medicine"],
+    "docQualifications": "MBBS",
+    "docAbout": "Dr. Mosrose Salina MBBS (DU), DMU (BITMIR), CCD (BIRDEM), CCCD (National Heart Foundation) has over 12 years of work experience, including working at Prescription Point, Marie Stopes Premium, and Family Planning Association of Bangladesh. Over the course of her career, she has attended several workshops and trainings.",
+    "docSchedule": [
+      {
+        "day": "sunday",
+        "time": "8:00am - 4:00pm"
+      },
+      {
+        "day": "tuesday",
+        "time": "8:00am - 4:00pm"
+      },
+      {
+        "day": "wednesday",
+        "time": "8:00am - 4:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 12,
+    "docName": "Noor-E-Jannat Fatema",
+    "docImage": "https://i.ibb.co/mzmMK9q/jannat-p2yp4e1xxjyg6ldt5arysa4o6iojdlkae3prhs0x5g.jpg",
+    "docSpecialities": ["family medicine", "nutrition"],
+    "docQualifications": "B.Sc, M,Sc",
+    "docAbout": "Ms. Fatema is trained nutritionist with over 18 years of experience. She completed her Bachelor’s in science in food and nutrition from Dhaka University in 1999. Later in 2001, she completed her Master’s degree from the same institution. Ms. Fatema has participated in various conferences and trainings throughout her career, which gave her crucial knowledge and insight on line of work.",
+    "docSchedule": [
+      {
+        "day": "saturay",
+        "time": "12:00pm - 8:00pm"
+      },
+      {
+        "day": "sunday",
+        "time": "12:00pm - 8:00pm"
+      },
+      {
+        "day": "monday",
+        "time": "12:00pm - 8:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 13,
+    "docName": "Dr. Partho Pratik Roy",
+    "docImage": "https://i.ibb.co/d4VJQJF/drpartho-e1616328425547-p4jkpglba7ld0x1al6gsk1m27oc873cdnxeghox5uc.jpg",
+    "docSpecialities": ["gastroenterology", "hepatology"],
+    "docQualifications": "MBBS, MD",
+    "docAbout": "Dr. Partho Pratik Roy MBBS (KMC), MD (BSMMU), is a specialist in Hepatology. Dr. Partho has over 10 years of experience, including working at Khulna Medical College Hospital, Shaheed Sheikh Abu Naser Specialized Hospital, BSMMU and ShSMC. Over the course of his career, Dr. Partho attended several workshops and trainings.",
+    "docSchedule": [
+      {
+        "day": "sunday",
+        "time": "7:00pm - 9:00pm"
+      },
+      {
+        "day": "thursday",
+        "time": "7:00pm - 9:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 14,
+    "docName": "Dr. Md Mahmuduzzaman",
+    "docImage": "https://i.ibb.co/YRnTwRq/5bfbacfb13847-p2xvmknbm0er0dqcetmumq6ehy8p6j82qlis24e40k.jpg",
+    "docSpecialities": ["gastroenterology"],
+    "docQualifications": "MBBS, MD, MACF, MACG",
+    "docAbout": "Dr. Md. Mahmuduzzaman MBBS (SSMC), MD (BSMMU) is an Associate Professor of Gastroenterology. He has over 21 years of experience, including working at SMMAMC, ShSMC, Mymensingh Medical College, DMC, BIRDEM, and SSMC. Over the course of his career, Dr. Mahmuduzzaman attended several workshops and trainings at home and abroad, including at Malaysia, India, Hong Kong, and Japan.",
+    "docSchedule": [
+      {
+        "day": "sunday",
+        "time": "4:00pm - 5:00pm"
+      },
+      {
+        "day": "tuesday",
+        "time": "4:00pm - 5:00pm"
+      },
+      {
+        "day": "thursday",
+        "time": "4:00pm - 5:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 15,
+    "docName": "Dr. Naz Yasmin",
+    "docImage": "https://i.ibb.co/gJ2ZfLZ/drnaz-e1616321816443-p4jfwwdym5dbm1ov837gb38o84ve3hacxtufrys250.jpg",
+    "docSpecialities": ["gynaecology", "obstetrics"],
+    "docQualifications": "MBBS, FCPS, MS",
+    "docAbout": "Dr. Naz Yasmin MBBS (DMC), FCPS (BCPS), MS (DU) is an Assistant Professor of Obstetrics and Gynecology. She has over 20 years of experience, including working at International Medical College and Hospital. Over the course of her career, Dr. Naz attended several workshops and trainings.",
+    "docSchedule": [
+      {
+        "day": "sunday",
+        "time": "5:00pm - 7:00pm"
+      },
+      {
+        "day": "monday",
+        "time": "5:00pm - 7:00pm"
+      },
+      {
+        "day": "tuesday",
+        "time": "5:00pm - 7:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 16,
+    "docName": "Dr. Shajia Fatema Zafar",
+    "docImage": "https://i.ibb.co/Y328zj9/Dr-Shajia-Fatema-Zafar-p4qpppin2p81ehmnyij1r9sum16qny4keax2wuir4k.jpg",
+    "docSpecialities": ["gynaecology"],
+    "docQualifications": "MBBS, MS, MCPS, FCPS(PART-1)",
+    "docAbout": "Dr. Shajia is a gynecologist with over 6 years of experience. She earned her MBBS from Shaheed Suhrawardy Medical College and Hospital in 2013, completed her FCPS Part 1 (Reproductive Endocrinology and Infertility) in 2014, and MCPS (Gynaecology and Obstetrics) in 2017. She then completed her MS in Gynaecology and Obstetrics from BSMMU in 2019. Dr. Shajia started her career as an HMO, Gynae and Obs Department at Dhaka Medical College Hospital from 2015 to 2016. She later joined Addin Hospital and Medical College as a Consultant in 2017. Prior to joining Praava, in 2018, she worked as a Specialist in SIBL Hospital and Impulse Hospital.",
+    "docSchedule": [
+      {
+        "day": "saturday",
+        "time": "9:00am - 5:00pm"
+      },
+      {
+        "day": "sunday",
+        "time": "9:00am - 5:00pm"
+      },
+      {
+        "day": "monday",
+        "time": "9:00am - 5:00pm"
+      },
+      {
+        "day": "tuesday",
+        "time": "9:00am - 5:00pm"
+      },
+      {
+        "day": "wednesday",
+        "time": "9:00am - 5:00pm"
+      },
+      {
+        "day": "thursday",
+        "time": "9:00am - 5:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 17,
+    "docName": "Dr. S.M. Saadi",
+    "docImage": "https://i.ibb.co/80wzD1y/Dr-saadi-p4qkzkqa28bnzcr9ez20g7dbvbr1g6pl0817tus1ck.jpg",
+    "docSpecialities": ["neuro medicine"],
+    "docQualifications": "MBBS (SSMC) MRCP (London) MRCP (Edin)",
+    "docAbout": "Dr. Saadi is a neurologist with over 7 years of experience. After completing MBBS from Sir Salimullah Medical College, he was directly oriented with handling various types of patients during the one-year training as an intern doctor of Surgery, Medicine, and Gynecology. In 2013, he passed MRCP Part-1 (UK) under The Royal College of Physicians of London & FCPS Part-1 (Medicine) under Bangladesh College of Physicians & Surgeons. He has also completed his MRCP Part-2 (UK) in April 2014 & USMLE step 2 CK in February 2015 and completed the MRCP (UK) from London in June 2016. He worked as an Emergency Medical Officer of Accident & Emergency at Khaja Yunus Ali Hospital in 2013 then moved onto United Hospital Limited as a Senior House Officer (Resident Medical Officer) in the Internal Medicine department for about 2.5 years starting in 2014. Following that he worked as a Neurology Specialist in United Hospital Limited until August 2018. Simultaneously he worked at Khawaza Yunus Ali Hospital, Bangladesh as a Junior Consultant and at Better Life Hospital, Bangladesh as a Consultant in the Department of Neurology. After that until July 2020, he worked as a Medical Register at Rotherham General Hospital, UK in the Department of Acute Medical Unit & Neurology. Prior to joining Praava, he worked as a Neurology Consultant at Japan East West Medical College Hospital, Bangladesh.",
+    "docSchedule": [
+      {
+        "day": "saturday",
+        "time": "7:00pm - 8:00pm"
+      },
+      {
+        "day": "sunday",
+        "time": "7:00pm - 8:00pm"
+      },
+      {
+        "day": "monday",
+        "time": "7:00pm - 8:00pm"
+      },
+      {
+        "day": "tuesday",
+        "time": "7:00pm - 8:00pm"
+      },
+      {
+        "day": "wednesday",
+        "time": "7:00pm - 8:00pm"
+      },
+      {
+        "day": "thursday",
+        "time": "7:00pm - 8:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 18,
+    "docName": "Dr. Nowsheen Sharmin Purabi",
+    "docImage": "https://i.ibb.co/f8NzyxL/Nowsheen-Sharmin-Purabi-290-x-290-grayscale-p9pk9prn0rj3y6m7snm2cvjec5lqw1g3yf5k6q4rtg.jpg",
+    "docSpecialities": ["gynaecology", "obstetrics"],
+    "docQualifications": "MBBS, MCPS",
+    "docAbout": "Dr. Nowsheen has about 17 years of experience as a medical practitioner, teacher and 13 years of experience as a media personality, human rights activist, and influencer. She has completed her MBBS in 2003 from Bangladesh Medical College and her MCPS from Bangladesh College of Physicians and Surgeons. She worked as a Medical Officer first at CARe Hospital, Dhaka from 2005 to 2007 and then at Renaissance Hospital and Research Institute from 2008 to 2009. She later joined as the Registrar of the Gynecology and Obstetrics department first at Z H Shikder Women’s Medical College and Hospital where she worked from 2009 to 2011 and then moved to Anwer Khan Modern Medical College. She is now also an individual Consultant at Orion Renal and General Hospital.",
+    "docSchedule": [
+      {
+        "day": "saturday",
+        "time": "11:00am - 1:00pm"
+      },
+      {
+        "day": "monday",
+        "time": "11:00am - 1:00pm"
+      },
+      {
+        "day": "wednesday",
+        "time": "11:00am - 1:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 19,
+    "docName": "Dr. Shahed Haider Chowdhury",
+    "docImage": "https://i.ibb.co/KwLGBr2/5bec70979d3a1-e1614251341226-p3dq8q0oon2a4143os34rhjmhylpf34s0so2fkcc0k.jpg",
+    "docSpecialities": ["ophthalmology"],
+    "docQualifications": "MBBS (DU), DO (DU)",
+    "docAbout": "Dr. Shaheed Haider Chowdhury, MBBS (DU), DO (DU), is an Opthalmologist with 20 years of work experience, including working at Bangladesh Medical College and Hospital. Over the course of his career, Dr. Chowdhury attended several trainings at home and abroad.",
+    "docSchedule": [
+      {
+        "day": "saturday",
+        "time": "6:00pm - 8:00pm"
+      },
+      {
+        "day": "sunday",
+        "time": "6:00pm - 8:00pm"
+      },
+      {
+        "day": "monday",
+        "time": "6:00pm - 8:00pm"
+      },
+      {
+        "day": "tuesday",
+        "time": "6:00pm - 8:00pm"
+      },
+      {
+        "day": "wednesday",
+        "time": "6:00pm - 8:00pm"
+      },
+      {
+        "day": "thursday",
+        "time": "6:00pm - 8:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 20,
+    "docName": "Dr. Md. Nurun Nabi",
+    "docImage": "https://i.ibb.co/KwLGBr2/5bec70979d3a1-e1614251341226-p3dq8q0oon2a4143os34rhjmhylpf34s0so2fkcc0k.jpg",
+    "docSpecialities": ["ophthalmology"],
+    "docQualifications": "MBBS MCPS FCPS",
+    "docAbout": "Dr. Md. Nurun Nabi, MBBS MCPS FCPS, is an Opthalmologist with 20 years of work experience, including working at Bangladesh Medical College and Hospital. Over the course of his career, Dr. Chowdhury attended several trainings at home and abroad.",
+    "docSchedule": [
+      {
+        "day": "saturday",
+        "time": "3:30pm - 6:00pm"
+      },
+      {
+        "day": "sunday",
+        "time": "3:30pm - 6:00pm"
+      },
+      {
+        "day": "tuesday",
+        "time": "3:30pm - 6:00pm"
+      },
+      {
+        "day": "thursday",
+        "time": "3:30pm - 6:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 21,
+    "docName": "Dr. Afroza Haque",
+    "docImage": "https://i.ibb.co/xmr52ty/Dr-Afroza-Haque-p4qkx1jxnauup6fp7dn78cdm8y8fpjnmbor4a0j844.jpg",
+    "docSpecialities": ["pediatrics"],
+    "docQualifications": "MBBS, MPH, FCPS",
+    "docAbout": "Dr. Afroza is a pediatrician with over 10 years of experience. She earned her MBBS from Badrunnessa Govt. Girls’ College, Dhaka in 1994, completed her MPH from NIPSOM in 2003 and further finished her FCPS in 2010 from Bangladesh College of Physicians and Surgeons. Dr. Afroza also holds a certificate for M.R. Training and Services Program from Mymensingh Medical College Hospital. She worked as a Registrar/Assistant Professor at Ibrahim Medical College & BIRDEM General Hospital from 2011 to 2014. She then joined Zam Zam Hospital Pvt. Ltd. Cox’s Bazar as the Director & Senior Consultant of Newborn Special Care Unit in January 2015. Later from September 2015 to April 2016, she worked at KC Hospital and Diagnostic Center, Uttara, Dhaka as a Consultant Paediatrics & Neonatologist. Prior to joining Praava, Dr. Afroza worked as a Consultant Paediatrics & Neonatologist at the Center for Women and Child Health, Dhaka.",
+    "docSchedule": [
+      {
+        "day": "sunday",
+        "time": "7:30pm - 9:00pm"
+      },
+      {
+        "day": "thursday",
+        "time": "7:30pm - 9:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 22,
+    "docName": "Dr. Habibur Rahman",
+    "docImage": "https://i.ibb.co/9qpNt7x/5bfbbb8db6533-e1616328373719-p4jko3ppetqg970ailc6ydy3bn152tyc57h7jaxmtw.jpg",
+    "docSpecialities": ["pediatrics"],
+    "docQualifications": "MBBS (CMCH), Ms, MPH",
+    "docAbout": "Dr. Habibur Rahman, is a Pediatric Health and Nutrition specialist with over 14 years of experience. He holds a PG Dip. in Pediatric Nutrition from Boston Medical School, USA, an International Post Pediatric Certificate from University of Sydney, Australia and has completed his MBBS from Chittagong Medical College & Hospital. He has also earned a Masters in nutrition and another MPH in child growth & nutrition. Dr. Rahman provides dietary management advice to children based on their growth and development assessment. Some of the issues he addresses include memory enhancers, weight gain methods and strengthening of bones.",
+    "docSchedule": [
+      {
+        "day": "saturday",
+        "time": "6:30pm - 7:30pm"
+      },
+      {
+        "day": "monday",
+        "time": "6:30pm - 7:30pm"
+      },
+      {
+        "day": "wednesday",
+        "time": "6:30pm - 7:30pm"
+      }
+    ]
+  },
+  {
+    "docId": 23,
+    "docName": "Perpetuo Manalo Dela Cruz",
+    "docImage": "https://i.ibb.co/HxcygsW/joey-p2ynzx43ock0b063gt08fhs7fa5lyqwc5sj5mw151w.jpg",
+    "docSpecialities": ["physiotherapy"],
+    "docQualifications": "B.Sc, Physical Therapy",
+    "docAbout": "Mr. Perpetuo Dela Cruz is a certified physiotherapist and fitness trainer with over 22 years of experience. He is from the Philippines and has a Bachelor’s Degree in Physical Therapy from Fatima University in Manila. Upon graduation, he practiced physiotherapy in Manila for several 3 years. During this tenure, he earned certifications on fitness, including one-on-one personal training certification under Fitness First, UK. In 2008, he moved to Dhaka and began to work as a freelance consultant through referrals for the British High Commission Clinic, followed by icddr,b, Chevron Bangladesh, and the US Embassy Clinic. His latest engagement in Bangladesh was with Acme Pharmaceuticals, where he served as Executive Physiotherapist under the medical department. He has also worked with numerous clients in Dhaka with weight loss and overall fitness. Mr. Dela Cruz lives in Dhaka with his wife and youngest child and loves the local culture, people, and mostly the food – bhapa pitha is his favorite.",
+    "docSchedule": [
+      {
+        "day": "sunday",
+        "time": "8:00am - 8:00pm"
+      },
+      {
+        "day": "monday",
+        "time": "8:00am - 8:00pm"
+      },
+      {
+        "day": "tuesday",
+        "time": "8:00am - 8:00pm"
+      },
+      {
+        "day": "wednesday",
+        "time": "8:00am - 8:00pm"
+      },
+      {
+        "day": "thursday",
+        "time": "8:00am - 8:00pm"
+      },
+      {
+        "day": "friday",
+        "time": "8:00am - 8:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 24,
+    "docName": "Dr. Mohammad Rabiul Karim Papon",
+    "docImage": "https://i.ibb.co/G34xJBv/5bec70ba9bd02-e1616321606152-p4jfrezuqxv3vxnl8pvsrh1vh7wb71iq6ougzuwqfo.jpg",
+    "docSpecialities": ["plastic & general surgeon"],
+    "docQualifications": "MBBS, FCPS",
+    "docAbout": "Dr. Mohammad Rabiul Karim Khan Papon MBBS (RMC), FCPS (BCPS), is a Plastic, Reconstructive and Cosmetic Surgeon. Dr. Papon has 17 years of experience including working at Dhaka Medical College, CLEFT in UK, and ASF. Over the course of his career, Dr. Papon attended several trainings at home and abroad",
+    "docSchedule": [
+      {
+        "day": "saturday",
+        "time": "3:00pm - 4:00pm"
+      },
+      {
+        "day": "monday",
+        "time": "3:00pm - 4:00pm"
+      },
+      {
+        "day": "wednesday",
+        "time": "3:00pm - 4:00pm"
+      }
+    ]
+  },
+  {
+    "docId": 25,
+    "docName": "Dr. Shamim Firdaus Karim",
+    "docImage": "https://i.ibb.co/f0ZhDTB/5bfbb0087f47d-p2ynrxhhl1m9mbrw4coe8id5ndjajd6h28wks7vlxw.jpg",
+    "docSpecialities": ["psychology", "family medicine"],
+    "docQualifications": "Ph.D, EMDR Therapist",
+    "docAbout": "Dr. Shamim Firdaus Karim, PhD (India), MSc (UK), MA (DU), BA (DU), specialised in EMDR, has over 28 years of experience including working at SAJIDA Foundation Psychosocial Counseling Center, DU, NSU, BRAC University, UNICEF, NCTB, CARE, as well as Save the Children. Dr. Karim has also attended trainings both locally and internationally on EMDR.",
+    "docSchedule": [
+      {
+        "day": "saturday",
+        "time": "3:00pm - 7:00pm"
+      },
+      {
+        "day": "sunday",
+        "time": "3:00pm - 7:00pm"
+      },
+      {
+        "day": "thursday",
+        "time": "3:00pm - 7:00pm"
+      }
+    ]
+  }
+]
