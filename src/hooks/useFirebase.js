@@ -17,22 +17,27 @@ const useFirebase = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   const auth = getAuth();
+  const googleProvider = new GoogleAuthProvider();
 
+  //   const userSignUpUsingEmailAndPassword = () => {
+  //       createUserWithEmailAndPassword(auth, email, password).then(
+  //         (result) => {
+  //           const user = result.user;
+  //         }
+  //       );
+  //   }
   const signInUsingGoogle = () => {
-    setIsLoading(true);
-    const googleProvider = new GoogleAuthProvider();
-    return signInWithPopup(auth, googleProvider);
-    // .then(({ user }) => setUser(user))
-    // .finally(() => setIsLoading(false));
+    return signInWithPopup(auth, googleProvider).finally(() =>
+      setIsLoading(false)
+    );
   };
 
-//   const userSignUpUsingEmailAndPassword = () => {
-//       createUserWithEmailAndPassword(auth, email, password).then(
-//         (result) => {
-//           const user = result.user;
-//         }
-//       );
-//   }
+  const userSignOut = () => {
+    setIsLoading(true);
+    signOut(auth)
+      .then(() => setUser({}))
+      .finally(() => setIsLoading(false));
+  };
 
   useEffect(() => {
     const unsubscribed = onAuthStateChanged(auth, (user) => {
@@ -45,16 +50,14 @@ const useFirebase = () => {
     });
     return () => unsubscribed;
     // eslint-disable-next-line
-  }, [isLoading]);
+  }, []);
 
-  const userSignOut = () => {
-    setIsLoading(true);
-    signOut(auth)
-      .then(() => {})
-      .finally(() => setIsLoading(false));
+  return {
+    user,
+    signInUsingGoogle,
+    userSignOut,
+    isLoading,
   };
-
-  return { user, signInUsingGoogle, userSignOut, isLoading };
 };
 
 export default useFirebase;

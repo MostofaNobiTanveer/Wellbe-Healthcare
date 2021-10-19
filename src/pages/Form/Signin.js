@@ -1,10 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useHistory } from "react-router-dom";
 import { useAuthContext } from "../../contexts/AuthProvider";
 import ScrollToTop from "../../utils/ScrollToTop";
 
 const Signin = () => {
   const { signInUsingGoogle } = useAuthContext();
+  const location = useLocation();
+  const history = useHistory();
+
+  const redirect_url = location.state?.from || "/doctors";
+
+  const handleGoogleSignIn = () => {
+    signInUsingGoogle()
+      .then((result) => {
+        history.push(redirect_url);
+      })
+  };
   return (
     <div className="flex-1 bg-gray-900 flex flex-col justify-center pb-10 pt-4 px-3 sm:px-6 lg:px-8">
       <ScrollToTop />
@@ -88,7 +99,7 @@ const Signin = () => {
             <div className="mt-6">
               <div>
                 <button
-                  onClick={signInUsingGoogle}
+                  onClick={handleGoogleSignIn}
                   className="w-full inline-flex justify-center items-center py-2 px-4 border border-gray-600 rounded-md shadow-sm bg-gray-700 text-sm font-medium text-gray-100 hover:bg-gray-600"
                 >
                   <span className="sr-only">Sign in with Google</span>

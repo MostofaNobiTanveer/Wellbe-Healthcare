@@ -12,6 +12,7 @@ import Signup from "./pages/Form/Signup";
 import Home from "./pages/Home/Home";
 import NotFound from "./pages/NotFound/NotFound";
 import PrivacyPolicies from "./pages/PrivacyPolicies/PrivacyPolicies";
+import PrivateRoute from "./pages/PrivateRoute/PrivateRoute";
 
 const App = () => {
   return (
@@ -40,9 +41,9 @@ const App = () => {
           <Route exact path="/doctor/:name">
             <DocInfo />
           </Route>
-          <Route path="/doctor/:name/:id">
+          <PrivateRoute path="/doctor/:name/:id">
             <BookAppoinment />
-          </Route>
+          </PrivateRoute>
           <Route path="/privacy&policies">
             <PrivacyPolicies />
           </Route>

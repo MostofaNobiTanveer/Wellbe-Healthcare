@@ -63,19 +63,19 @@ const Header = () => {
             </Link>
           </div>
           {user?.email ? (
-            <div className="flex items-start gap-x-4">
+            <div className="flex items-start gap-x-2">
               <div className="flex flex-col justify-between items-end">
-                <div className="text-base font-medium text-gray-200">
+                <div className="text-base text-gray-100">
                   {user?.displayName}
                 </div>
                 <button
                   onClick={userSignOut}
-                  className="whitespace-nowrap text-sm font-medium text-pink-500 hover:bg-gray-600 pb-0.5 px-2 rounded"
+                  className="whitespace-nowrap text-sm font-medium text-purple-500 hover:bg-gray-600 pb-0.5 px-2 -mr-1 rounded"
                 >
                   Sign out
                 </button>
               </div>
-              <span className="inline-block h-12 w-12 shadow-lg rounded-lg overflow-hidden bg-gray-100">
+              <span className="inline-block h-12 w-12 shadow-lg rounded-full overflow-hidden bg-gray-100">
                 {user?.photoURL ? (
                   <img
                     className="block h-full w-full object-cover object-center"
