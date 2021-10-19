@@ -52,6 +52,13 @@ const Header = () => {
             >
               FAQ
             </Link>
+
+            <Link
+              to="/privacy&policies"
+              className="text-sm font-medium text-white hover:text-indigo-50"
+            >
+              Terms
+            </Link>
           </div>
           {/* {user?.email ? (
                   <div className="flex items-start gap-x-4">
@@ -153,6 +160,12 @@ const Header = () => {
             className="text-sm font-medium text-white hover:text-indigo-50"
           >
             FAQ
+          </Link>
+          <Link
+            to="/privacy&policies"
+            className="text-sm font-medium text-white hover:text-indigo-50"
+          >
+            Terms
           </Link>
         </div>
       </nav>
