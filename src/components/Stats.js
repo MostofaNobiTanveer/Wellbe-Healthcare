@@ -40,7 +40,7 @@ const Stats = () => {
                     Satisfied Patients
                   </dt>
                   <dd className="order-1 text-5xl font-extrabold text-indigo-400">
-                    1M+
+                    500k+
                   </dd>
                 </div>
               </dl>
