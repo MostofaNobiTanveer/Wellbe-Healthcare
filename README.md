@@ -1,5 +1,5 @@
 # WellBe
-- https://wellbe-react-tw.netlify.app/
+visit - https://wellbe-react-tw.netlify.app/
 
 This is [WellBe](https://wellbe-react-tw.netlify.app/) where we have built a healthcare system that puts you first. Because nothing is more important than your and your family’s health.
 
@@ -24,7 +24,6 @@ This is [WellBe](https://wellbe-react-tw.netlify.app/) where we have built a hea
 * From that list you can select a doctor and find more `information` and `schedules` of that doctor
 * You have to `Login first` to book an appointment
 * You can Signup using `email and password` or using `Gmail`
-* 
 
 ### App folder structure
 
