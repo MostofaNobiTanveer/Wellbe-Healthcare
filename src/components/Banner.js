@@ -6,7 +6,7 @@ const Banner = () => {
     <section className="py-10 bg-gray-900 px-4 relative overflow-hidden">
       <div className="relative h-full max-w-7xl mx-auto">
         <svg
-          className="absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2"
+          className="absolute right-full transform translate-y-1/4 translate-x-1/3 lg:translate-x-1/2"
           width="404"
           height="784"
           fill="none"
@@ -40,7 +40,7 @@ const Banner = () => {
           />
         </svg>
         <svg
-          className="absolute left-full transform -translate-y-3/4 -translate-x-1/4 md:-translate-y-1/2 lg:-translate-x-1/2"
+          className="absolute left-full transform -translate-y-3/4 -translate-x-1/3 md:-translate-y-1/2 lg:-translate-x-1/2"
           width="404"
           height="784"
           fill="none"

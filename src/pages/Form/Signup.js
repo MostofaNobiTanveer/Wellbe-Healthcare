@@ -1,23 +1,85 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useLocation, useHistory } from "react-router-dom";
 import { useAuthContext } from "../../contexts/AuthProvider";
+import Alert from "../../utils/Alert";
+// import Alert from "../../utils/Alert";
 import ScrollToTop from "../../utils/ScrollToTop";
 
 const Signup = () => {
-  const { signInUsingGoogle } = useAuthContext();
+  const [error, setError] = useState({ show: false, msg: "" });
+  const [formValues, setFormValues] = useState({
+    username: "",
+    email: "",
+    password: "",
+  });
+  const {
+    signInUsingGoogle,
+    updateProfile,
+    setUser,
+    auth,
+    createUserWithEmailAndPassword,
+  } = useAuthContext();
   const location = useLocation();
   const history = useHistory();
-
   const redirect_url = location.state?.from || "/doctors";
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setError({ show: false });
+    }, 4000);
+    return () => clearTimeout(timer);
+  }, [error]);
 
   const handleGoogleSignIn = () => {
     signInUsingGoogle().then((result) => {
       history.push(redirect_url);
     });
   };
+
+  const handleFormValueChange = (e) => {
+    const { name, value } = e.target;
+    setFormValues({ ...formValues, [name]: value });
+  };
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    createUserWithEmailAndPassword(auth, formValues.email, formValues.password)
+      .then((result) => {
+        updateProfile(auth.currentUser, {
+          displayName: formValues.username,
+        }).then(() => {});
+        setUser(result.user);
+        setFormValues({
+          username: "",
+          email: "",
+          password: "",
+        });
+        history.push(redirect_url);
+      })
+      .catch((error) => {
+        if (error.code === "auth/weak-password") {
+          setError({ show: true, msg: "Please provide stronger password!" });
+        } else if (error.code === "auth/email-already-in-use") {
+          setError({
+            show: true,
+            msg: "Your email already in use. Please Signin!",
+          });
+          history.push("/signin");
+        } else {
+          setError({ show: true, msg: error.code });
+          setFormValues({
+            username: "",
+            email: "",
+            password: "",
+          });
+        }
+      });
+  };
+
   return (
     <div className="flex-1 bg-gray-900 flex flex-col justify-center pb-10 pt-4 px-3 sm:px-6 lg:px-8">
       <ScrollToTop />
+      {error.show && <Alert text={error.msg} />}
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-200">
           Create an account
@@ -26,21 +88,23 @@ const Signup = () => {
 
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
         <div className="bg-gray-800 py-8 px-4 shadow rounded-lg sm:px-10">
-          <form className="space-y-6" action="#" method="POST">
+          <form className="space-y-6" onSubmit={handleFormSubmit}>
             <div>
               <label
-                htmlFor="name"
+                htmlFor="username"
                 className="block text-sm font-medium text-gray-300"
               >
                 Name
               </label>
               <div className="mt-1">
                 <input
-                  id="name"
-                  name="name"
+                  id="username"
+                  name="username"
                   type="text"
                   autoComplete="name"
                   placeholder="e.g: John Doe"
+                  value={formValues.username}
+                  onChange={handleFormValueChange}
                   required
                   className="appearance-none bg-gray-800 text-gray-200 block w-full px-3 py-2 border border-gray-600 rounded-md shadow-sm placeholder-gray-500 focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm"
                 />
@@ -61,6 +125,8 @@ const Signup = () => {
                   type="email"
                   autoComplete="email"
                   placeholder="mail@example.com"
+                  value={formValues.email}
+                  onChange={handleFormValueChange}
                   required
                   className="appearance-none text-gray-200 bg-gray-800 block w-full px-3 py-2 border border-gray-600 rounded-md shadow-sm placeholder-gray-500 focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm"
                 />
@@ -81,6 +147,8 @@ const Signup = () => {
                   type="password"
                   autoComplete="current-password"
                   placeholder="***********"
+                  value={formValues.password}
+                  onChange={handleFormValueChange}
                   required
                   className="appearance-none text-gray-200 bg-gray-800 block w-full px-3 py-2 border border-gray-600 rounded-md shadow-sm placeholder-gray-500 focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm"
                 />

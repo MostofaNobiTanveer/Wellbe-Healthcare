@@ -44,9 +44,9 @@ const App = () => {
           <PrivateRoute path="/doctor/:name/:id">
             <BookAppoinment />
           </PrivateRoute>
-          <Route path="/privacy&policies">
+          <PrivateRoute path="/privacy&policies">
             <PrivacyPolicies />
-          </Route>
+          </PrivateRoute>
           <Route path="*">
             <NotFound />
           </Route>

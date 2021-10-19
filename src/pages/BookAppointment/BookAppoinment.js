@@ -1,20 +1,37 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router";
+import { useHistory, useParams } from "react-router";
 import { Link } from "react-router-dom";
 import Loader from "../../components/Loader";
 import { useFetchContext } from "../../contexts/FetchProvider";
 import ScrollToTop from "../../utils/ScrollToTop";
 
 const BookAppoinment = () => {
+  const [formValues, setFormValues] = useState({
+    day: "",
+    username: "",
+    email: "",
+    number: "",
+  });
   const { id } = useParams();
   const [doctor, setDoctor] = useState({});
   const { isLoading, doctors } = useFetchContext();
+  const history = useHistory();
 
   useEffect(() => {
     const selectedDoc = doctors.find((doctor) => doctor.docId === parseInt(id));
     setDoctor(selectedDoc);
     // eslint-disable-next-line
   }, [doctors]);
+
+  const handleFormValueChange = (e) => {
+    const { name, value } = e.target;
+    setFormValues({ ...formValues, [name]: value });
+  };
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    history.push("/doctors");
+  };
 
   if (isLoading) {
     return <Loader />;
@@ -72,7 +89,7 @@ const BookAppoinment = () => {
         {/* form */}
         <div className="sm:mx-auto sm:w-full sm:max-w-lg">
           <div className="bg-gray-800 py-8 px-4 shadow rounded-lg sm:px-10">
-            <form className="space-y-6" action="#" method="POST">
+            <form className="space-y-6" onSubmit={handleFormSubmit}>
               <div>
                 <label
                   htmlFor="day"
@@ -84,6 +101,8 @@ const BookAppoinment = () => {
                   <select
                     id="day"
                     name="day"
+                    value={formValues.day}
+                    onChange={handleFormValueChange}
                     required
                     className="appearance-none bg-gray-800 text-gray-300 block w-full px-3 py-2 border border-gray-600 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm"
                   >
@@ -96,18 +115,20 @@ const BookAppoinment = () => {
 
               <div>
                 <label
-                  htmlFor="name"
+                  htmlFor="username"
                   className="block text-sm font-medium text-gray-300"
                 >
                   Name
                 </label>
                 <div className="mt-1">
                   <input
-                    id="name"
-                    name="name"
+                    id="username"
+                    name="username"
                     type="text"
                     autoComplete="name"
                     placeholder="e.g: John Doe"
+                    value={formValues.username}
+                    onChange={handleFormValueChange}
                     required
                     className="appearance-none bg-gray-800 text-gray-200 block w-full px-3 py-2 border border-gray-600 rounded-md shadow-sm placeholder-gray-500 focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm"
                   />
@@ -127,7 +148,9 @@ const BookAppoinment = () => {
                     name="email"
                     type="email"
                     autoComplete="email"
-                    placeholder="mail@example.co"
+                    placeholder="mail@example.com"
+                    value={formValues.email}
+                    onChange={handleFormValueChange}
                     required
                     className="appearance-none text-gray-200 bg-gray-800 block w-full px-3 py-2 border border-gray-600 rounded-md shadow-sm placeholder-gray-500 focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm"
                   />
@@ -144,10 +167,12 @@ const BookAppoinment = () => {
                 <div className="mt-1">
                   <input
                     id="number"
-                    name="password"
+                    name="number"
                     type="tel"
                     autoComplete="tel"
                     placeholder="01XXXXXXXXX"
+                    value={formValues.number}
+                    onChange={handleFormValueChange}
                     required
                     className="appearance-none text-gray-200 bg-gray-800 block w-full px-3 py-2 border border-gray-600 rounded-md shadow-sm placeholder-gray-500 focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm"
                   />

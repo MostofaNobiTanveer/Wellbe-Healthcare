@@ -1,24 +1,64 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useLocation, useHistory } from "react-router-dom";
 import { useAuthContext } from "../../contexts/AuthProvider";
+import Alert from "../../utils/Alert";
 import ScrollToTop from "../../utils/ScrollToTop";
 
 const Signin = () => {
-  const { signInUsingGoogle } = useAuthContext();
+  const [error, setError] = useState({ show: false, msg: "" });
+  const [formValues, setFormValues] = useState({ email: "", password: "" });
+  const {
+    signInUsingGoogle,
+    sendPasswordResetEmail,
+    auth,
+    setUser,
+    signInWithEmailAndPassword,
+  } = useAuthContext();
   const location = useLocation();
   const history = useHistory();
 
   const redirect_url = location.state?.from || "/doctors";
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setError({ show: false });
+    }, 4000);
+    return () => clearTimeout(timer);
+  }, [error]);
+
   const handleGoogleSignIn = () => {
-    signInUsingGoogle()
+    signInUsingGoogle().then((result) => {
+      history.push(redirect_url);
+    });
+  };
+
+  const handleFormValueChange = (e) => {
+    const { name, value } = e.target;
+    setFormValues({ ...formValues, [name]: value });
+  };
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    signInWithEmailAndPassword(auth, formValues.email, formValues.password)
       .then((result) => {
         history.push(redirect_url);
+        setUser(result.user);
       })
+      .catch((error) => {
+        setError({ show: true, msg: error.code });
+      });
   };
+
+  const handleForgotPassword = () => {
+    sendPasswordResetEmail(auth, formValues.email)
+      .then(() => {setError({ show: true, msg: "A password reset email has been sent to your email." });})
+      .catch((error) => setError({ show: true, msg: error.code }));
+  };
+
   return (
     <div className="flex-1 bg-gray-900 flex flex-col justify-center pb-10 pt-4 px-3 sm:px-6 lg:px-8">
       <ScrollToTop />
+      {error.show && <Alert text={error.msg} />}
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-200">
           Sign in to your account
@@ -27,7 +67,7 @@ const Signin = () => {
 
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
         <div className="bg-gray-800 py-8 px-4 shadow rounded-lg sm:px-10">
-          <form className="space-y-6" action="#" method="POST">
+          <form className="space-y-6" onSubmit={handleFormSubmit}>
             <div>
               <label
                 htmlFor="email"
@@ -42,6 +82,8 @@ const Signin = () => {
                   type="email"
                   autoComplete="email"
                   placeholder="mail.example.com"
+                  value={formValues.email}
+                  onChange={handleFormValueChange}
                   required
                   className="appearance-none text-gray-200 bg-gray-800 block w-full px-3 py-2 border border-gray-600 rounded-md shadow-sm placeholder-gray-500 focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm"
                 />
@@ -62,6 +104,8 @@ const Signin = () => {
                   type="password"
                   autoComplete="current-password"
                   placeholder="************"
+                  value={formValues.password}
+                  onChange={handleFormValueChange}
                   required
                   className="appearance-none text-gray-200 bg-gray-800 block w-full px-3 py-2 border border-gray-600 rounded-md shadow-sm placeholder-gray-500 focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm"
                 />
@@ -70,7 +114,10 @@ const Signin = () => {
 
             <div className="flex items-center justify-between">
               <div className="text-sm">
-                <button className="font-medium text-purple-400 hover:text-purple-500">
+                <button
+                  onClick={handleForgotPassword}
+                  className="font-medium text-purple-400 hover:text-purple-500"
+                >
                   Forgot your password?
                 </button>
               </div>

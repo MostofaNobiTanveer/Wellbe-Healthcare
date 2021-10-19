@@ -6,7 +6,9 @@ import {
   signOut,
   onAuthStateChanged,
   createUserWithEmailAndPassword,
+  updateProfile,
   signInWithEmailAndPassword,
+  sendPasswordResetEmail,
 } from "firebase/auth";
 import { initializeAuthentication } from "../firebase/firebase.init";
 
@@ -15,21 +17,15 @@ initializeAuthentication();
 const useFirebase = () => {
   const [user, setUser] = useState({});
   const [isLoading, setIsLoading] = useState(true);
-
   const auth = getAuth();
   const googleProvider = new GoogleAuthProvider();
 
-  //   const userSignUpUsingEmailAndPassword = () => {
-  //       createUserWithEmailAndPassword(auth, email, password).then(
-  //         (result) => {
-  //           const user = result.user;
-  //         }
-  //       );
-  //   }
-  const signInUsingGoogle = () => {
-    return signInWithPopup(auth, googleProvider).finally(() =>
-      setIsLoading(false)
-    );
+  const signInUsingGoogle = async () => {
+    try {
+      return await signInWithPopup(auth, googleProvider);
+    } finally {
+      return setIsLoading(false);
+    }
   };
 
   const userSignOut = () => {
@@ -57,6 +53,12 @@ const useFirebase = () => {
     signInUsingGoogle,
     userSignOut,
     isLoading,
+    createUserWithEmailAndPassword,
+    auth,
+    setUser,
+    updateProfile,
+    signInWithEmailAndPassword,
+    sendPasswordResetEmail,
   };
 };
 
