@@ -43,12 +43,7 @@ const Signup = () => {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    createUserWithEmailAndPassword(
-      auth,
-      formValues.email,
-      formValues.password,
-      formValues.username
-    )
+    createUserWithEmailAndPassword(auth, formValues.email, formValues.password)
       .then((result) => {
         updateProfile(auth.currentUser, {
           displayName: formValues.username,
