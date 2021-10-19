@@ -14,14 +14,21 @@ const Header = () => {
                 src="https://i.ibb.co/8Yg2k60/output-onlinepngtools.png"
                 alt="logo"
               />
-              <p className="text-gray-100 text-xl md:text-2xl font-medium">WellBe</p>
+              <p className="text-gray-100 text-xl md:text-2xl font-medium">
+                WellBe
+              </p>
             </Link>
           </div>
           <div className="hidden ml-10 space-x-8 lg:block">
             <Link
+              to="/"
+              className="text-base font-medium text-white hover:text-indigo-50"
+            >
+              Home
+            </Link>
+            <Link
               to="/doctors"
               className="text-base font-medium text-white hover:text-indigo-50"
-              key="Solutions"
             >
               Our Doctors
             </Link>
@@ -29,21 +36,19 @@ const Header = () => {
             <Link
               to="/about"
               className="text-base font-medium text-white hover:text-indigo-50"
-              key="Pricing"
             >
               About Us
             </Link>
-            <Link
+            {/* <Link
               to="/appoinments"
               className="text-base font-medium text-white hover:text-indigo-50"
-              key="Pricing"
+              
             >
               Your Appointments
-            </Link>
+            </Link> */}
             <Link
               to="/faq"
               className="text-base font-medium text-white hover:text-indigo-50"
-              key="Pricing"
             >
               FAQ
             </Link>
@@ -117,9 +122,15 @@ const Header = () => {
         </div>
         <div className="py-4 flex flex-wrap justify-center space-x-6 lg:hidden">
           <Link
+            to="/"
+            className="text-sm font-medium text-white hover:text-indigo-50"
+          >
+            Home
+          </Link>
+
+          <Link
             to="/doctors"
             className="text-sm font-medium text-white hover:text-indigo-50"
-            key="Solutions"
           >
             Doctors
           </Link>
@@ -127,21 +138,19 @@ const Header = () => {
           <Link
             to="/about"
             className="text-sm font-medium text-white hover:text-indigo-50"
-            key="Pricing"
           >
             About
           </Link>
-          <Link
+          {/* <Link
             to="/appoinments"
             className="text-sm font-medium text-white hover:text-indigo-50"
-            key="Pricing"
+            
           >
             Appointments
-          </Link>
+          </Link> */}
           <Link
             to="/faq"
             className="text-sm font-medium text-white hover:text-indigo-50"
-            key="Pricing"
           >
             FAQ
           </Link>
