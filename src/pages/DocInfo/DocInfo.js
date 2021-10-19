@@ -40,15 +40,15 @@ const DocInfo = () => {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-8 w-8"
+            className="h-8 w-8"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               d="M10 19l-7-7m0 0l7-7m-7 7h18"
             />
           </svg>
@@ -123,12 +123,12 @@ const DocInfo = () => {
                     return (
                       <li
                         key={index}
-                        className="bg-gray-600 px-3 py-1.5 rounded mb-2 flex items-center justify-between"
+                        className="bg-gray-700 px-3 py-1.5 rounded mb-2 flex items-center justify-between"
                       >
                         <p className="font-semibold text-gray-100 text-base">
                           {day}
                         </p>
-                        <p className="bg-gray-500 px-6 py-0.5 font-semibold rounded text-white">
+                        <p className="bg-gray-600 shadow-lg px-6 py-0.5 font-semibold rounded text-white">
                           {time}
                         </p>
                       </li>
