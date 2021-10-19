@@ -3,9 +3,11 @@ import { useHistory, useParams } from "react-router";
 import { Link } from "react-router-dom";
 import Loader from "../../components/Loader";
 import { useFetchContext } from "../../contexts/FetchProvider";
+import Alert from "../../utils/Alert";
 import ScrollToTop from "../../utils/ScrollToTop";
 
 const BookAppoinment = () => {
+  const [alert, setAlert] = useState({ show: false, msg: "" });
   const [formValues, setFormValues] = useState({
     day: "",
     username: "",
@@ -23,6 +25,13 @@ const BookAppoinment = () => {
     // eslint-disable-next-line
   }, [doctors]);
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setAlert({ show: false });
+    }, 4000);
+    return () => clearTimeout(timer);
+  }, [alert]);
+
   const handleFormValueChange = (e) => {
     const { name, value } = e.target;
     setFormValues({ ...formValues, [name]: value });
@@ -30,6 +39,7 @@ const BookAppoinment = () => {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
+    setAlert({ show: true, msg: "Successfully registered!" });
     history.push("/doctors");
   };
 
@@ -42,6 +52,7 @@ const BookAppoinment = () => {
   return (
     <section className="p-4">
       <ScrollToTop />
+      {alert.show && <Alert text={alert.msg} />}
       <div className="bg-gray-800 w-full max-w-5xl mx-auto overflow-hidden shadow rounded-lg">
         <Link
           to={`/doctor/${docName}`}
