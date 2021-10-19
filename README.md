@@ -1,6 +1,6 @@
 # WellBe
 
-This is [WellBe](https://wellbe-react-tw.netlify.app/) where learners come to learn the skills they need.
+This is [WellBe](https://wellbe-react-tw.netlify.app/) where we have built a healthcare system that puts you first. Because nothing is more important than your and your family’s health
 
 ## Our Adjectives
 
@@ -8,9 +8,9 @@ This is [WellBe](https://wellbe-react-tw.netlify.app/) where learners come to le
 * Our mission is to train the world’s workforce in the careers of the future.
 * With our powerful and flexible digital education platform, we help learners can prepare themselves to take on the most in-demand tech roles.
 
-### Technologies used
+### Tags
 
-`React` `Tailwind-CSS` `React-router`
+`React` `Tailwind-CSS` `React-router` `Private Route` `Firebase` `Authentication`
 
 ### App folder structure
 
