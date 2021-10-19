@@ -31,35 +31,35 @@ const features = [
 
 const Features = () => {
   return (
-    <section class="text-gray-400 bg-gray-900">
-      <div class="max-w-6xl pt-12 px-5 mx-auto">
+    <section className="text-gray-400 bg-gray-900">
+      <div className="max-w-6xl pt-12 px-5 mx-auto">
         <div className="text-center mb-10">
           <h1 className="sm:text-4xl text-3xl font-extrabold text-center title-font text-white mb-4">
             Our Features
           </h1>
         </div>
-        <div class="md:pr-10 md:py-6 grid gap-4 lg:grid-cols-2">
+        <div className="md:pr-10 md:py-6 grid gap-4 lg:grid-cols-2">
           {features.map(({ id, pathData, title, desc }) => {
             return (
-              <div key={id} class="flex pb-12">
-                <div class="flex-shrink-0 w-16 h-16 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+              <div key={id} className="flex pb-12">
+                <div className="flex-shrink-0 w-16 h-16 rounded-full bg-purple-500 inline-flex items-center justify-center text-white relative z-10">
                   <svg
                     fill="none"
                     stroke="currentColor"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2"
-                    class="w-8 h-8"
+                    className="w-8 h-8"
                     viewBox="0 0 24 24"
                   >
                     <path d={pathData}></path>
                   </svg>
                 </div>
-                <div class="flex-grow pl-4">
-                  <h2 class="font-semibold text-lg text-white mb-1 tracking-wider">
+                <div className="flex-grow pl-4">
+                  <h2 className="font-semibold text-lg text-white mb-1 tracking-wider">
                     {title}
                   </h2>
-                  <p class="leading-relaxed text-sm ">{desc}</p>
+                  <p className="leading-relaxed text-sm ">{desc}</p>
                 </div>
               </div>
             );

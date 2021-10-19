@@ -75,7 +75,7 @@ const DocInfo = () => {
             <div>
               <Link
                 to={`/doctor/${docName}/${docId}`}
-                className="mt-4 inline-flex items-center md:px-6 md:py-3 px-2.5 py-1.5 border border-transparent text-sm font-normal rounded shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none"
+                className="mt-4 inline-flex items-center md:px-6 md:py-3 px-2.5 py-1.5 border border-transparent text-sm font-normal rounded shadow-sm text-white bg-purple-500 hover:bg-purple-600 focus:outline-none"
               >
                 Book an appointment
               </Link>
@@ -85,13 +85,13 @@ const DocInfo = () => {
         <div className="border-t border-gray-700">
           <dl>
             <div className="bg-gray-800 px-4 md:px-8 py-5 sm:grid sm:grid-cols-3 sm:gap-4">
-              <dt className="text-lg font-medium text-indigo-400">Full name</dt>
+              <dt className="text-lg font-medium text-purple-400">Full name</dt>
               <dd className="mt-1 text-base text-gray-300 sm:mt-0 sm:col-span-2">
                 {docName}
               </dd>
             </div>
             <div className="border-t border-gray-700 bg-gray-800 px-4 md:px-8 py-5 sm:grid sm:grid-cols-3 sm:gap-4">
-              <dt className="text-lg font-medium text-indigo-400">
+              <dt className="text-lg font-medium text-purple-400">
                 Specialities​
               </dt>
               <dd className="mt-1 text-base capitalize text-gray-300 sm:mt-0 sm:col-span-2">
@@ -101,7 +101,7 @@ const DocInfo = () => {
               </dd>
             </div>
             <div className="border-t border-gray-700 bg-gray-800 px-4 md:px-8 py-5 sm:grid sm:grid-cols-3 sm:gap-4">
-              <dt className="text-lg font-medium text-indigo-400">
+              <dt className="text-lg font-medium text-purple-400">
                 Qualifications
               </dt>
               <dd className="mt-1 text-base text-gray-300 sm:mt-0 sm:col-span-2">
@@ -109,13 +109,13 @@ const DocInfo = () => {
               </dd>
             </div>
             <div className="border-t border-gray-700 bg-gray-800 px-4 md:px-8 py-5 sm:grid sm:grid-cols-3 sm:gap-4">
-              <dt className="text-lg font-medium text-indigo-400">About</dt>
+              <dt className="text-lg font-medium text-purple-400">About</dt>
               <dd className="mt-1 text-base text-gray-300 sm:mt-0 sm:col-span-2">
                 {docAbout}
               </dd>
             </div>
             <div className="border-t border-gray-700 bg-gray-800 px-4 md:px-8 py-5 sm:grid sm:grid-cols-3 sm:gap-4">
-              <dt className="text-lg font-medium text-indigo-400">Schedules</dt>
+              <dt className="text-lg font-medium text-purple-400">Schedules</dt>
               <dd className="mt-1 text-sm text-gray-300 sm:mt-0 sm:col-span-2">
                 <ul>
                   {docSchedule?.map((schedule, index) => {

@@ -2,9 +2,10 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-  box-shadow: 0 0 0 30px #1F2937 inset !important;
+  box-shadow: 0 0 0 30px #1f2937 inset !important;
   -webkit-text-fill-color: white !important;
 }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

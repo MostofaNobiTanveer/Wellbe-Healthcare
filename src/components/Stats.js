@@ -23,7 +23,7 @@ const Stats = () => {
                   <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
                     Doctors
                   </dt>
-                  <dd className="order-1 text-5xl font-extrabold text-indigo-400">
+                  <dd className="order-1 text-5xl font-extrabold text-purple-400">
                     50+
                   </dd>
                 </div>
@@ -31,7 +31,7 @@ const Stats = () => {
                   <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
                     Corporate Clients
                   </dt>
-                  <dd className="order-1 text-5xl font-extrabold text-indigo-400">
+                  <dd className="order-1 text-5xl font-extrabold text-purple-400">
                     330
                   </dd>
                 </div>
@@ -39,7 +39,7 @@ const Stats = () => {
                   <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
                     Satisfied Patients
                   </dt>
-                  <dd className="order-1 text-5xl font-extrabold text-indigo-400">
+                  <dd className="order-1 text-5xl font-extrabold text-purple-400">
                     500k+
                   </dd>
                 </div>

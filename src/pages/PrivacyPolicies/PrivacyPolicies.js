@@ -73,7 +73,7 @@ const PrivacyPolicies = () => {
                 information for any other purposes without your explicit
                 authorization. If yo have any questions regarding this notice,
                 please email us at{" "}
-                <code className="text-indigo-400">info@Wellbe.com</code> .
+                <code className="text-purple-400">info@Wellbe.com</code> .
               </p>
             </div>
           </div>

@@ -60,7 +60,7 @@ const Doctors = () => {
           <div className="w-full max-w-2xl">
             <label
               htmlFor="specialites"
-              className="block text-lg font-medium text-indigo-400"
+              className="block text-lg font-medium text-purple-400"
             >
               Search by specialty
             </label>

@@ -17,7 +17,7 @@ const About = () => {
           </p>
         </div>
         <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col">
-          <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-purple-400 bg-gray-800 flex-shrink-0">
+          <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-purple-500 bg-gray-800 flex-shrink-0">
             <svg
               fill="none"
               stroke="currentColor"
@@ -52,7 +52,7 @@ const About = () => {
               great care.
             </p>
           </div>
-          <div className="sm:w-32 order-first sm:order-none sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full text-purple-400 bg-gray-800 flex-shrink-0">
+          <div className="sm:w-32 order-first sm:order-none sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full text-purple-500 bg-gray-800 flex-shrink-0">
             <svg
               fill="none"
               stroke="currentColor"
@@ -69,7 +69,7 @@ const About = () => {
           </div>
         </div>
         <div className="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
-          <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-purple-400 bg-gray-800 flex-shrink-0">
+          <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-purple-500 bg-gray-800 flex-shrink-0">
             <svg
               fill="none"
               stroke="currentColor"

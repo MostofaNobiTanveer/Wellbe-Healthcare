@@ -28,7 +28,7 @@ const SpecialityList = () => {
       <div className="container px-5 py-12 mx-auto">
         <div className="text-center mb-10">
           <h1 className="sm:text-4xl text-3xl font-extrabold text-center title-font text-white mb-4">
-            Our Specialist Doctors Given Services
+            Services Given by Our Specialist Doctors
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             At Wellbe you will be treated by caring, internationally trained
@@ -47,7 +47,7 @@ const SpecialityList = () => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="3"
-                    className="text-indigo-400 w-6 h-6 flex-shrink-0 mr-4"
+                    className="text-purple-500 w-6 h-6 flex-shrink-0 mr-4"
                     viewBox="0 0 24 24"
                   >
                     <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -62,7 +62,7 @@ const SpecialityList = () => {
           })}
           <Link
             to="/doctors"
-            className="flex mx-auto mt-8 text-white bg-indigo-400 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            className="flex mx-auto mt-8 text-white bg-purple-500 border-0 py-2 px-8 focus:outline-none hover:bg-purple-600 rounded text-lg"
           >
             Browse our doctors
           </Link>

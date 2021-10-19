@@ -25,7 +25,7 @@ const DocCard = ({
             <p className="text-gray-300 font-medium text-base">
               {docQualifications}
             </p>
-            <p className="text-indigo-400 capitalize text-md">
+            <p className="text-purple-400 capitalize text-md">
               {Array.isArray(docSpecialities)
                 ? docSpecialities.join(", ")
                 : docSpecialities}
@@ -35,7 +35,7 @@ const DocCard = ({
           <div className="flex-1 items-end flex justify-end">
             <Link
               to={`/doctor/${docName}`}
-              className="mt-4 inline-flex items-center justify-center w-full py-2.5 border border-transparent text-sm font-normal rounded shadow-sm text-white bg-indigo-500 hover:bg-indigo-700 focus:outline-none"
+              className="mt-4 inline-flex items-center font-bold justify-center w-full py-2.5 border border-transparent text-sm rounded shadow-sm text-white bg-purple-500 hover:bg-purple-600 focus:outline-none"
             >
               More details
             </Link>
