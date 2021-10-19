@@ -2,7 +2,7 @@
 
 This is [WellBe](https://wellbe-react-tw.netlify.app/) where we have built a healthcare system that puts you first. Because nothing is more important than your and your family’s health.
 
-## Our Adjectives
+### Our Adjectives
 
 * Wellbe exists to provide a better patient experience. We are a one-stop-shop for your health, offering caring doctors, world-class diagnostics and much more.
 * Our goal is to make the process intuitive for our patients and provide care where ever you are – in clinic or at-home.
