@@ -17,6 +17,7 @@ const Signup = () => {
     updateProfile,
     setUser,
     auth,
+    setBaseName,
     createUserWithEmailAndPassword,
   } = useAuthContext();
   const location = useLocation();
@@ -45,6 +46,7 @@ const Signup = () => {
     e.preventDefault();
     createUserWithEmailAndPassword(auth, formValues.email, formValues.password)
       .then((result) => {
+        setBaseName(formValues.username)
         updateProfile(auth.currentUser, {
           displayName: formValues.username,
         }).then(() => {});

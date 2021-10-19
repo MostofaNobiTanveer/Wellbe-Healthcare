@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useAuthContext } from "../contexts/AuthProvider";
 
 const Header = () => {
-  const { user, userSignOut } = useAuthContext();
+  const { user, userSignOut, baseName } = useAuthContext();
   return (
     <header className="bg-gray-900 border-b border-gray-700 sticky top-0 z-50">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -66,7 +66,7 @@ const Header = () => {
             <div className="flex items-start gap-x-2">
               <div className="flex flex-col justify-between items-end">
                 <div className="text-base text-gray-100">
-                  {user?.displayName}
+                  {user?.displayName || baseName}
                 </div>
                 <button
                   onClick={userSignOut}

@@ -15,6 +15,7 @@ import { initializeAuthentication } from "../firebase/firebase.init";
 initializeAuthentication();
 
 const useFirebase = () => {
+  const [baseName, setBaseName] = useState("")
   const [user, setUser] = useState({});
   const [isLoading, setIsLoading] = useState(true);
   const auth = getAuth();
@@ -59,6 +60,8 @@ const useFirebase = () => {
     updateProfile,
     signInWithEmailAndPassword,
     sendPasswordResetEmail,
+    setBaseName,
+    baseName
   };
 };
 
